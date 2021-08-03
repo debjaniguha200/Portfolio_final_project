@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;/*  vh stands for view height */
+    width: 100%;
+    background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/84366486/original/c490739223326be0ddccbf3bd1d7381ce7926fa5/do-stunning-background-videos-for-your-website.png)
+    
+
+
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+span{
+    color: rgb(231, 128, 128);
+}
+.nav{
+
+    display: flex;
+    align-items: right;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+ul li{
+    display: inline-block;
+     padding: 10px 30px; /*10-->top and bottom && 30--> gap btw texts*/
+}
+ul li a{
+      color:white;
+      text-decoration: none;
+}
+ul li a:hover{
+    color:rgb(231, 128, 128);
+}
+.btn{
+    background-color: azure;
+    color:rgb(231, 128, 128);
+    text-decoration: none;
+    border: 2px solid transperant;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+
+}
+
+.btn:hover{
+    transform: scale(1.4);
+}
+.content{
+    position:absolute;
+    top: 40%;
+    left:8%;
+    
+}
+h1{
+    color: white;
+    margin: 15px 0 10px;
+    font-size:50px;
+
+}
+
+h3{
+    color: white;
+    font-size:20px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color:rgb(223, 211, 211);
+    font-size:15px;
+    letter-spacing: 2px;
+}
+.forms form{
+    width: 400px;
+    
+    max-width: 100%;
+    position: relative;
+}
+.forms form input:first-child{
+    width:100%;
+    display: inline-block;
+    padding: 14px 100px 14px 15px;
+    border: 2px solid rgb(231, 128, 128);
+    border-radius: 30px;
+}
+
+.forms form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color:rgb(231, 128, 128) ;
+    color: white;
+    top: 6px;
+    right:6px;
+}
+.last{
+    margin-top: 10px;
+}
+.icon{
+    letter-spacing: 8px;
+    transition: transform .4s;
+    cursor: pointer;
+
+}
+
+.icon:hover{
+    transform: scale(1.4);
+}
+    
+
+
+
+
+
+
+
